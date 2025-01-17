@@ -125,5 +125,17 @@ Este relatório apresenta uma análise de tráfego de rede com o objetivo de ide
 
 ---
 
+### 5. Controle de Países Permitidos
+- **Whitelist de Países:** Configure políticas de firewall para permitir apenas acessos de países relevantes para o negócio.
+- **Geoblocking:** Use geolocalização de IPs para bloquear automaticamente acessos de regiões não permitidas.
+- **Monitoramento Contínuo:** Registre e analise acessos de países não permitidos para ajustar as políticas conforme necessário.
+
+### 6. Utilização de um WAF (Web Application Firewall)
+- **Configuração de Regras Personalizadas:** Configure regras para bloquear ataques específicos, como XSS, SQL Injection e LFI.
+- **Proteção Automática:** Habilite recursos como inspeção de tráfego e prevenção contra bots.
+- **Integração com Logs:** Use o WAF para coletar e monitorar dados de tráfego em tempo real, facilitando respostas rápidas a incidentes.
+
+---
+
 ## Conclusão
-A análise destacou IPs e caminhos que representam potenciais ameaças de segurança, categorizados em diferentes tipos de ataques. Este relatório pode servir como base para ações de mitigação e monitoramento contínuo.
+A análise destacou IPs e caminhos que representam potenciais ameaças de segurança, categorizados em diferentes tipos de ataques. A aplicação das recomendações propostas ajudará a mitigar os riscos, melhorar a postura de segurança e garantir conformidade com as políticas da empresa.
