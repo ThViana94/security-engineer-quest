@@ -101,5 +101,29 @@ Este relatório apresenta uma análise de tráfego de rede com o objetivo de ide
 
 ---
 
+## Recomendações de Mitigação
+
+### 1. XSS (Cross-Site Scripting)
+- **Sanitize Input:** Implemente a limpeza de entradas nos formulários e parâmetros de URL.
+- **Content Security Policy (CSP):** Restrinja o carregamento de scripts externos.
+- **Encode Output:** Sempre codifique os dados antes de exibi-los no navegador.
+
+### 2. LFI (Local File Inclusion)
+- **Validação de Caminhos:** Restrinja parâmetros de caminho para permitir apenas localizações específicas.
+- **Desative Erros Verbosos:** Evite que o sistema exiba mensagens de erro detalhadas.
+- **Input Sanitization:** Remova caracteres como `../` e valide entradas de caminho.
+
+### 3. SQL Injection
+- **Prepared Statements:** Use consultas parametrizadas para prevenir injeções de SQL.
+- **Validação de Entradas:** Restrinja entradas do usuário a tipos e valores esperados.
+- **Monitoramento:** Configure alertas para detectar padrões anômalos em consultas.
+
+### 4. Command Injection
+- **Restringir Comandos:** Evite executar comandos do sistema diretamente a partir de entradas de usuário.
+- **Validação de Entradas:** Limite estritamente o tipo de dados permitidos como entrada.
+- **Isolamento:** Execute processos críticos em containers ou ambientes isolados.
+
+---
+
 ## Conclusão
 A análise destacou IPs e caminhos que representam potenciais ameaças de segurança, categorizados em diferentes tipos de ataques. Este relatório pode servir como base para ações de mitigação e monitoramento contínuo.
