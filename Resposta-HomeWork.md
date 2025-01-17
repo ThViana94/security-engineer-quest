@@ -12,7 +12,39 @@ Este relatório apresenta uma análise de tráfego de rede com o objetivo de ide
 
 ---
 
+## Lista de Países que Acessaram o Ambiente
+
+**Distribuição de Acessos por País:**
+
+- in: 18372 acessos
+- us: 11481 acessos
+- br: 37 acessos
+- jp: 34 acessos
+- gb: 26 acessos
+- fr: 20 acessos
+- cn: 10 acessos
+- de: 8 acessos
+- au: 8 acessos
+- ca: 4 acessos
+
+---
+
+## Paralelo entre Requisições Maliciosas e Países
+
+**Distribuição de Requisições Maliciosas por País:**
+
+- in: 1069 requisições maliciosas
+- us: 717 requisições maliciosas
+- de: 2 requisições maliciosas
+- gb: 2 requisições maliciosas
+- au: 1 requisições maliciosas
+- br: 1 requisições maliciosas
+- fr: 1 requisições maliciosas
+
+---
+
 ## IPs Destacados
+
 ### Distribuição Geral de Ataques por Tipo
 ![Distribuição de Ataques por Tipo](attack_distribution.png)
 
@@ -29,6 +61,7 @@ Este relatório apresenta uma análise de tráfego de rede com o objetivo de ide
 ---
 
 ## Lista de Ataques Identificados
+
 ### 1. XSS (Cross-Site Scripting)
 **Total de Requisições:** 458  
 **Caminhos Identificados:**
@@ -70,34 +103,3 @@ Este relatório apresenta uma análise de tráfego de rede com o objetivo de ide
 
 ## Conclusão
 A análise destacou IPs e caminhos que representam potenciais ameaças de segurança, categorizados em diferentes tipos de ataques. Este relatório pode servir como base para ações de mitigação e monitoramento contínuo.
-
----
-
-## Lista de Países que Acessaram o Ambiente
-
-**Distribuição de Acessos por País:**
-
-- in: 18372 acessos
-- us: 11481 acessos
-- br: 37 acessos
-- jp: 34 acessos
-- gb: 26 acessos
-- fr: 20 acessos
-- cn: 10 acessos
-- de: 8 acessos
-- au: 8 acessos
-- ca: 4 acessos
-
----
-
-## Paralelo entre Requisições Maliciosas e Países
-
-**Distribuição de Requisições Maliciosas por País:**
-
-- in: 1069 requisições maliciosas
-- us: 717 requisições maliciosas
-- de: 2 requisições maliciosas
-- gb: 2 requisições maliciosas
-- au: 1 requisições maliciosas
-- br: 1 requisições maliciosas
-- fr: 1 requisições maliciosas
